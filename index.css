@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1% 1% 0;
+}
+
+nav {
+  display: flex;
+}
+
+.page {
+  background-color: #D8D8D8;
+  width: 164px;
+  height: 31px;
+  margin: 2%; 
+}
+
+.banner {
+  background-color: #D8D8D8;
+}
