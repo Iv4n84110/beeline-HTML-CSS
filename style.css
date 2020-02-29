@@ -6,6 +6,10 @@
     url('./static/fonts/Abel-Regular.woff') format('woff');
 }
 
+html{
+  scroll-behavior: smooth; 
+}
+
 body {
   width: 1440px;
   margin: 0 auto;
