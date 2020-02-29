@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Abel';
+  font-style: 'regular';
+  font-weight: 300;
+  src: local('Abel'),
+    url('./static/fonts/Abel-Regular.woff') format('woff');
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: 'Abel';
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1% 2%;
+}
+
+nav {
+  display: flex;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 60px;
+  margin: 1%;
+}
+
+h2 {
+  margin: 6% 0 0;
+  font-size: 30px;
+  font-weight: normal;
+  color: #1C1E20;
+}
+
+button {
+  height: 60px;
+  width: 283px;
+  margin: 1%;
+  font-size: 26px;
+  border: none;
+  font-family: 'Abel';
+}
+
+input {
+  font-family: 'Abel';
+  border: none;
+  font-size: 26px;
+  margin: 0px;
+}
+
+.button-nav {
+  background-color: #D8D8D8;
+  width: 164px;
+  height: 31px;
+  margin: 2%; 
+}
+
+.banner-section {
+  background-color: #D8D8D8;
+}
+
+.banner-content {
+  padding: 10%;
+}
+
+.banner-text {
+  font-size: 36px;
+  margin: 1%;
+}
+
+.white-button {
+  background-color:#FFFFFF
+}
+
+.black-button {
+  background-color:#000000;
+  color: #FFFFFF;
+  height: 60px;
+  width: 283px;
+}
+
+.shortArticles-section {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 6% 6% 5%;
+}
+.shortArticle{
+  display: flex;
+  flex-direction: column;
+}
+
+.shortArticle-picture {
+  width: 350px;
+  height: 224px;
+}
+
+.shortArticle-text {
+  margin: 1% 0 10%;
+  font-size: 18px;
+  line-height: 30px;
+  width: 340px;
+  color: #1C1E20
+}
+
+.link{
+  font-size: 18px;
+  color: #787878;
+  text-decoration: none;
+}
+
+.signUpForUpdates-section{
+  background-color: #D8D8D8;
+  display: flex;
+  justify-content: center;
+}
+.email-input {
+  height: 58px;
+  width: 330px;
+  padding: 0 40px 0 30px;
+  margin-right: -4px;
+}
+
+.signUpForUpdates-form {
+  margin: 10%;
+}
+
+.signUpForUpdates-header {
+  margin: 0 auto 5%;
+  font-size: 35px;
+  letter-spacing: 4.375px;
+  text-align: center;
+}
