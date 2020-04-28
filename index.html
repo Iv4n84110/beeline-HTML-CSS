@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>HTML/CSS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <header class="header">
+    <div class=" container header-container">
+      <div class="logo">
+        <img src="img/logo-header.svg" alt="logo">
+      </div>
+      <nav class="navbar">
+        <ul class="navbar__list list">
+            <li class="navbar__item item">
+                <a class="navbar__link"></a>
+            </li>
+            <li class="navbar__item item">
+                <a class="navbar__link"></a>
+            </li>
+            <li class="navbar__item item">
+              <a class="navbar__link"></a>
+          </li>
+          <li class="navbar__item item">
+            <a class="navbar__link"></a>
+        </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content container">
+      <h1 class="hero-title">Banner Header</h1>
+      <p class="hero-text">Lorem ipsum dolor sit amet</p>
+      <button class="button white-button">white button</button>
+      <button class=" button black-button">black button</button>
+    </div>
+  </section>
+
+  <section class="articles container">
+    <article class="article">
+      <img src="img/Article-picture.svg" alt="Article picture" class="articles-img">
+      <h2 class="title">Article Header</h2>
+      <p class="articles-text">
+        lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      </p>
+      <a href="#article1" class="link">Read more</a>
+    </article>
+    <article class="article">
+      <img src="img/Article-picture.svg" alt="Article picture" class="articles-img">
+      <h2 class="title">Article Header</h2>
+      <p class="articles-text">
+        lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      </p>
+      <a href="#article2" class="link">Read more</a>
+    </article>
+    <article class="article">
+      <img src="img/Article-picture.svg" alt="Article picture" class="articles-img">
+      <h2 class="title">Article Header</h2>
+      <p class="articles-text">
+        lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      </p>
+      <a href="#article3" class="link">Read more</a>
+    </article>
+  </section>
+
+  <section class="updates justify-content-center">
+    <form action="" method="post" class="updates-form">
+    <h2 class="updates-header">Sign Up for updates</h2>
+    <input type="email" name="userEmail" class="input email-input" placeholder="Enter your email">
+    <input type="submit" name="submit" class="input black-button" value="fill button">
+    </form>
+  </section>
+
+  <section class="articles-main">
+    <div class="container">
+      <article class="row">
+          <div class="col-half order-1 justify-content-center">
+            <h2 class="title">Article Header</h2>
+            <p class="articles-main-text">
+              lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </p>
+          </div>
+          <div class="col-half order-2">
+            <img id="article2" src="./img/Article-picture.svg" alt="Article picture" class="articles-main-img">
+          </div>
+      </article>
+      <article class="row">
+          <div class="col-half order-2 justify-content-center">
+            <h2 class="title">Article Header</h2>
+            <p class="articles-main-text">
+              lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </p>
+          </div>
+          <div class="col-half order-1">
+            <img id="article2" src="./img/Article-picture.svg" alt="Article picture" class="articles-main-img">
+          </div>
+      </article>
+      <article class="row">
+        <div class="col-half order-1 justify-content-center">
+          <h2 class="title">Article Header</h2>
+          <p class="articles-main-text">
+            lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          </p>
+        </div>
+        <div class="col-half order-2">
+          <img id="article2" src="./img/Article-picture.svg" alt="Article picture" class="articles-main-img">
+        </div>
+      </article>
+      <div class="row justify-content-center">
+          <div class="col">
+            <button class="button black-button articles-main-button">black button</button>
+          </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="logo">
+      <img src="img/logo-footer.svg" alt="logo">
+    </div>
+    <ul class="site-map list">
+      <li class="site-map__item item">
+        <a class="site-map__link"></a>
+      </li>
+      <li class="site-map__item item">
+        <a class="site-map__link"></a>
+      </li>
+      <li class="site-map__item item">
+        <a class="site-map__link"></a>
+      </li>
+      <li class="site-map__item item">
+        <a class="site-map__link"></a>
+      </li>
+    </ul>
+    <ul class="social list">
+      <li class="social__item item">
+        <a href="https://www.facebook.com/" target="_blank">      
+          <img src="./img/social/facebook.svg" alt="facebook">
+        </a>
+      </li>
+      <li class="social__item item">
+        <a href="https://www.instagram.com/" target="_blank">      
+          <img src="./img/social/instagram.svg" alt="instagram">
+        </a>
+      </li>
+      <li class="social__item item">
+        <a href="https://www.linkedin.com/" target="_blank">      
+          <img src="./img/social/linkedin.svg" alt="linkedin">
+        </a>
+      </li>
+      <li class="social__item item">
+        <a href="https://www.twitter.com/" target="_blank">      
+          <img src="./img/social/twitter.svg" alt="twitter">
+        </a>
+      </li>
+    </ul>
+  </footer>
+ </body>
+</html>   
